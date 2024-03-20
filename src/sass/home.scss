@@ -1,0 +1,471 @@
+
+h6{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: sans-serif;
+
+   }
+   h4{
+    color: blue;
+   }
+  
+
+.calculator{
+   background-color: white;
+   width: 100% ;
+   height:100%;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ 
+
+   .container{
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+   margin: 0px auto;
+ 
+   .start{
+    align-items: center;
+    height: auto;
+    margin: 100px auto;
+    background-color: rgb(201, 198, 198);
+    border-radius: 10px;
+
+    box-shadow: rgba(243, 94, 94, 0.09) 0px 5px 5px, rgba(199, 13, 13, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 9px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(221, 54, 54, 0.09) 0px 32px 16px;
+    
+    .inputscreen{
+       
+        height:95px;
+        background-color:gray;
+        color: white;
+        border-radius:5px;
+        border: 1px solid black;
+        margin: 0px;
+
+        .inputs{
+            font-size: 25px;
+            font-family: sans-serif;
+            font-weight: 700;
+            color: white;
+            margin: 5px 7px;
+            text-align: left;
+        }
+        .result{
+            text-align: right;
+            margin-left: 10px;
+            margin-right: 10px;          
+            font-weight: 800;
+            font-size: 30px;
+            margin-bottom: 4px;
+        }
+    }
+
+
+    .allbuttons{
+        margin: 10px 9px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 20px 9px;       
+ 
+        .operator{
+            background-color: blue;
+            margin: 12px 5px;
+            width: 70px;
+            height: 55px;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            &:hover{
+                background-color: black;
+                color: white;
+                transition: 0.2s;
+            }
+        }
+
+
+        .btnn{
+            background-color: gray;
+            margin: 12px auto;
+            width: 70px;
+            height: 55px;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            &:hover{
+                background-color: black;
+                color: white;
+                transition: 0.2s;
+            }
+        }
+    }  
+
+   }
+   
+    
+   }
+
+}
+
+@media only screen and (max-width: 990px){
+    h4{
+        color: blue;
+        text-align: center;
+    
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: sans-serif;
+    
+       }
+    .calculator{
+        background-color: white;
+        width: 100% ;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+     
+        .container{
+         width: 100%;
+         margin: 0;
+         align-items: center;
+         justify-content: center;
+        margin: 0px auto;
+        .start{
+         // width: 400px;
+         align-items: center;
+         height: auto;
+         margin: 65px auto;
+         background-color: rgb(201, 198, 198);
+         border-radius: 10px;
+     
+         box-shadow: rgba(243, 94, 94, 0.09) 0px 5px 5px, rgba(199, 13, 13, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 9px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(221, 54, 54, 0.09) 0px 32px 16px;
+         
+         .inputscreen{
+            
+             height:86px;
+             background-color:gray;
+             color: white;
+             border-radius:5px;
+             border: 1px solid black;
+             margin: 0px;
+     
+             .inputs{
+                 font-size: 20px;
+                 font-family: sans-serif;
+                 font-weight: 700;
+                 color: white;
+                 margin: 5px 7px;
+                 text-align: left;
+             }
+             .result{
+                 text-align: right;
+                 margin-left: 10px;
+                 margin-right: 10px;          
+                 font-weight: 800;
+                 font-size: 25px;
+                 margin-bottom: 4px;
+             }
+         }
+     
+     
+         .allbuttons{
+             margin: 10px 9px;
+             display: grid;
+             grid-template-columns: auto auto auto auto;
+             margin: 20px 5px;       
+      
+             .operator{
+                 background-color: blue;
+                 margin: 12px auto;
+                 width: 75px;
+                 height: 50px;
+                 justify-content: center;
+                 align-items: center;
+                 font-size: 16px;
+                 font-weight: 600;
+                 color: white;
+                 &:hover{
+                     background-color: black;
+                     color: white;
+                     transition: 0.2s;
+                 }
+             }
+     
+     
+             .btnn{
+                 background-color: gray;
+                 margin: 12px auto;
+                 width: 75px;
+                 height: 50px;
+                 justify-content: center;
+                 align-items: center;
+                 font-size: 16px;
+                 font-weight: 600;
+                 border-radius: 5px;
+                 border: none;
+                 color: white;
+                 &:hover{
+                     background-color: black;
+                     color: white;
+                     transition: 0.2s;
+                 }
+             }
+         }  
+     
+        }
+        
+         
+        }
+     
+     }
+}
+@media only screen and (max-width: 500px){
+    h4{
+        color: blue;
+        text-align: center;
+    
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: sans-serif;
+    
+       }
+    .calculator{
+        background-color: white;
+        width: 100% ;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+     
+        .container{
+         width: 100%;
+         margin: 0;
+         align-items: center;
+         justify-content: center;
+        margin: 0px auto;
+        .start{
+         // width: 400px;
+         align-items: center;
+         height: auto;
+         margin: 65px auto;
+         background-color: rgb(201, 198, 198);
+         border-radius: 10px;
+     
+         box-shadow: rgba(243, 94, 94, 0.09) 0px 5px 5px, rgba(199, 13, 13, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 9px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(221, 54, 54, 0.09) 0px 32px 16px;
+         
+         .inputscreen{
+            
+             height:86px;
+             background-color:gray;
+             color: white;
+             border-radius:5px;
+             border: 1px solid black;
+             margin: 0px;
+     
+             .inputs{
+                 font-size: 20px;
+                 font-family: sans-serif;
+                 font-weight: 700;
+                 color: white;
+                 margin: 5px 7px;
+                 text-align: left;
+             }
+             .result{
+                 text-align: right;
+                 margin-left: 10px;
+                 margin-right: 10px;          
+                 font-weight: 800;
+                 font-size: 25px;
+                 margin-bottom: 4px;
+             }
+         }
+     
+     
+         .allbuttons{
+             margin: 10px 9px;
+             display: grid;
+             grid-template-columns: auto auto auto auto;
+             margin: 20px 5px;       
+      
+             .operator{
+                 background-color: blue;
+                 margin: 12px auto;
+                 width: 75px;
+                 height: 50px;
+                 justify-content: center;
+                 align-items: center;
+                 font-size: 16px;
+                 font-weight: 600;
+                 color: white;
+                 &:hover{
+                     background-color: black;
+                     color: white;
+                     transition: 0.2s;
+                 }
+             }
+     
+     
+             .btnn{
+                 background-color: gray;
+                 margin: 12px auto;
+                 width: 75px;
+                 height: 50px;
+                 justify-content: center;
+                 align-items: center;
+                 font-size: 16px;
+                 font-weight: 600;
+                 border-radius: 5px;
+                 border: none;
+                 color: white;
+                 &:hover{
+                     background-color: black;
+                     color: white;
+                     transition: 0.2s;
+                 }
+             }
+         }  
+     
+        }
+        
+         
+        }
+     
+     }
+}
+
+
+
+@media only screen and (min-width: 220px){
+    h4{
+        color: blue;
+        text-align: center;
+    
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: sans-serif;
+    
+       }
+    .calculator{
+        background-color: white;
+        width: 100% ;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+     
+        .container{
+         width: 100%;
+         margin: 0;
+         align-items: center;
+         justify-content: center;
+        margin: 0px auto;
+        .start{
+         // width: 400px;
+         align-items: center;
+         height: auto;
+         margin: 35px auto;
+         background-color: rgb(201, 198, 198);
+         border-radius: 10px;
+     
+         box-shadow: rgba(243, 94, 94, 0.09) 0px 5px 5px, rgba(199, 13, 13, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 9px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(221, 54, 54, 0.09) 0px 32px 16px;
+         
+         .inputscreen{
+            
+             height:78px;
+             background-color:gray;
+             color: white;
+             border-radius:5px;
+             border: 1px solid black;
+             margin: 0px;
+     
+             .inputs{
+                 font-size: 20px;
+                 font-family: sans-serif;
+                 font-weight: 700;
+                 color: white;
+                 margin: 5px 7px;
+                 text-align: left;
+             }
+             .result{
+                 text-align: right;
+                 margin-left: 10px;
+                 margin-right: 10px;          
+                 font-weight: 800;
+                 font-size: 25px;
+                 margin-bottom: 4px;
+             }
+         }
+     
+     
+         .allbuttons{
+             margin: 5px 9px;
+             display: grid;
+             grid-template-columns: auto auto auto auto;
+             margin: 10px 5px;       
+      
+             .operator{
+                 background-color: blue;
+                 margin: 10px auto;
+                 width: 70px;
+                 height: 45px;
+                 justify-content: center;
+                 align-items: center;
+                 font-size: 16px;
+                 font-weight: 600;
+                 color: white;
+                 &:hover{
+                     background-color: black;
+                     color: white;
+                     transition: 0.2s;
+                 }
+             }
+     
+     
+             .btnn{
+                 background-color: gray;
+                 margin: 12px auto;
+                 width: 70px;
+                 height: 45px;
+                 justify-content: center;
+                 align-items: center;
+                 font-size: 16px;
+                 font-weight: 600;
+                 border-radius: 5px;
+                 border: none;
+                 color: white;
+                 &:hover{
+                     background-color: black;
+                     color: white;
+                     transition: 0.2s;
+                 }
+             }
+         }  
+     
+        }
+        
+         
+        }
+     
+     }
+}
